@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Govnetic Mockup</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Govnetic</h1>
+        <nav>
+            <button onclick="switchMode('public')">Mode Publik</button>
+            <button onclick="switchMode('editor')">Mode Editor</button>
+        </nav>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <ul>
+                <li>Judul</li>
+                <li>Bab</li>
+                <li>Pasal</li>
+                <li>Ayat</li>
+                <li>Referensi</li>
+            </ul>
+        </aside>
+        <main class="content" id="main-content">
+            <!-- Konten akan berubah sesuai dengan mode yang dipilih -->
+            <h2>Selamat datang di Govnetic</h2>
+            <p>Pilih mode untuk memulai.</p>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
